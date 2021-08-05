@@ -1,0 +1,102 @@
+/* .flipped {
+margin-left: 10%;
+transform: translateX(22%); */
+/* -ms-transform:rotate(90deg); /* IE 9 */
+/* -webkit-transform:rotate(90deg); /* Safari and Chrome */
+/* }
+
+.active {
+position: sticky;
+transform: translateX(-1000px);
+transform: rotate(-90deg);
+margin-left: 500px;
+}
+
+button {
+  position: fixed;
+   z-index: +1;
+} */
+
+/* ::-webkit-scrollbar {
+  width: 10px;
+} */
+
+/* ::-webkit-scrollbar-track {
+  background: green;
+}
+
+::-webkit-scrollbar-thumb {
+  background: red;
+} */
+
+
+
+.maincontainer {
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  font-size: 0;
+
+}
+img {
+display: inline-block;
+width: 515px;
+margin: 0px 0px 0px 0px;
+padding: 0px 0px 0px 0px;
+line-height: 0;
+}
+
+
+
+#turd1 {
+  margin-right: .5%;
+  margin-left: .5%;
+}
+
+.rotated {
+transform:rotate(90deg);
+overflow-y: scroll;
+height: 1000px;
+/* -ms-transform:rotate(90deg); /* IE 9 */
+/* -webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+
+body{
+    overflow-x: scroll;
+    width: auto;
+    white-space: nowrap;
+    overflow-y: hidden;
+}
+
+body::-webkit-scrollbar {
+background-color: #00a651;
+width: 5%;
+}
+
+body::-webkit-scrollbar-thumb {
+  border-radius: 5
+  px;
+  background-color: white;
+}
+
+
+@media only screen and (max-width: 600px) {
+img{
+ width:450px;
+ margin-top: 20px;
+}
+
+}
+
+@media only screen and (max-width: 500px) {
+  img{
+   width:400px;
+   margin-top: 40px;
+  }
+
+@media only screen and (max-width: 400px) {
+    img{
+     width:350px;
+     margin-top: 60px;
+    }
+
+}
