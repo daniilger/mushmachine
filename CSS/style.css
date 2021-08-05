@@ -38,7 +38,9 @@ body::-webkit-scrollbar-thumb { border-radius: 0px; background-color: white;
 #turd1 { margin-right: .5%; margin-left: .5%;
 }
 
-@media  screen and (max-width: 1080px) { img{ width:400px; margin-top: 0px;
+
+
+@media  screen and (max-width: 1600px) { img{ width:400px; margin-top: 0px;
 }
 
 }
