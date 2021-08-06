@@ -45,12 +45,12 @@ body::-webkit-scrollbar-thumb { border-radius: 0px; background-color: white;
 
 }
 
-@media  screen and (max-width: 1500px) { img{ width:450px; margin-top: 0px;
+@media  screen and (max-width: 1500px) { img{ width:420px; margin-top: 0px;
 }
 
 }
 
-@media  screen and (max-width: 1400px) { img{ width:375px; margin-top: 0px;
+@media  screen and (max-width: 1400px) { img{ width:350px; margin-top: 0px;
 }
 
 }
